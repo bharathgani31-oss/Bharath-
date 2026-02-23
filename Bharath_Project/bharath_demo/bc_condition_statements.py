@@ -17,16 +17,4 @@ age = int(input("please enter your age:"))
 if age <= 3:
     print("you are a baby")
 else:
-    pass
-if age <=12:
-    print("child")
-else:
-    pass
-if age<=17:
-    print("teen")
-else:
-    pass
-if age<=59:
-    print("Adult")
-else:
     print("old")
