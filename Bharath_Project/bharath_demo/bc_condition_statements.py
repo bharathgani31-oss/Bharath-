@@ -19,9 +19,4 @@ if age <= 3:
 else:
     pass
 if age>=18:
-<<<<<<< HEAD
-    print("old")
-=======
     print("Adult")
-
->>>>>>> branch 'master' of https://github.com/bharathgani31-oss/Bharath-.git
