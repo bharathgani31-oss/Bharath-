@@ -12,11 +12,28 @@ Syntax:
 If <condition>
     code
 Indentation: Leading spaces<spaces given at the begenning statements)
-'''
 age = int(input("please enter your age:"))
-if age <= 3:
-    print("you are a baby")
-else:
-    pass
 if age>=18:
     print("Adult")
+    else
+'''
+age = int(input("please enter your age:"))
+if age > 0:
+    if age<=3:
+        print("you are an infant")
+        
+    elif age<=12:
+        print("You are a child")
+        
+    elif age<=18:
+        print("You are a teen")
+    
+    elif age<=60:
+        print("you are an adult")
+    
+    else:
+        print("you are old")
+else:
+     print("enter a valid integer greater than zero")       
+    
+        
