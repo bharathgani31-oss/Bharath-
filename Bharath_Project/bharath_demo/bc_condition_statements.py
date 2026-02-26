@@ -34,6 +34,6 @@ if age > 0:
     else:
         print("you are old")
 else:
-     print("enter a valid integer greater than zero")       
+    print("enter a valid integer greater than zero")       
     
         
