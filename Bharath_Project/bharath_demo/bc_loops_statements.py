@@ -30,11 +30,42 @@ if num % 2 == 0:
 else:
     print("number is odd")
 
-'''
+
 n = 0
 while n <= 100:
     n = n+1
     if n % 2 == 0:
         print(n)
         
-        
+
+for i in range(5):
+    print("* * * * *")
+
+for i in range(5*5):
+    print("*", end = " ")
+
+for j in range(5):
+    for i in range(5):
+        print("*", end =" ")
+    print()
+
+for j in range(1, 6):
+    for i in range(j):
+        print("*", end=" ")
+    print()
+
+for j in range(1, 6):
+    for i in range(j):
+        print("*", end=" ")
+    print()
+
+for j in range(1, 6): # No. of lines
+    for i in range(j): # No. of stars
+        print("*", end=" ")    
+    print()
+'''
+for j in range(0, 5):
+    for i in range (5-j):
+        print("*",end=" ")
+    print()
+    
