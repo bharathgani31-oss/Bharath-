@@ -55,8 +55,8 @@ print("f(::):", f[-3:-1:1])
 h = (1, 2, 3, 4, 5, 6)
 h[2] = 4
 print(h)
-/// sets
-from operator import index
+
+
 a = {}
 print(a)
 print(type(a))
@@ -105,9 +105,75 @@ print("f(::)", f[-1:-7:1])
 h = {1, 2, 3, 4, 5, 6}
 h[2] = 4
 print(h)
-'''
+
 f = {1, 2, 3, 4, 5}
 print("f:", f)
 print("f(::)", list(f)[::])
+
+
+
+e = {1, 2, 3, 4, 5}
+for i in e:
+    print(i)
+    
+b = {9,8,6,1, 2, 3,99,0}
+print("b:", b)
+print(type(b))
+
+c = {1, 1.2, 'bharath', 6+7j, False , None, 0,True}
+print("c:", c)
+print(type(c))
+
+
+d = set(range(10))
+print("d:", d)
+d.add(99)
+print("d:", d)
+print(d.difference(b))
+#print(d.difference_update(b))
+#print(d)
+d.discard(99)
+print("d:", d)
+
+d.discard(99)
+print("d:", d)
+
+#d.remove(99) KeyError: 99
+#print("d:", d)
+
+print(d.intersection(b))
+
+
+print("d.pop",d.pop())
+print(d)
+print("d.remove:",d.remove(7))
+print(d)
+
+
+#print("d.union:",d.union(b))
+
+print("d.update(b):",d.update(b))
+print(d)
+
+
+x = 123# // IT will be  0  so the 123 is not displayed
+x = 43# // New value will be displayed
+print(x)
+'''
+a = 12
+b = 12
+a == b
+print(b)
+print(id(a))
+print(id(b))
+
+s = 1, 3
+print(s)
+print(type(s))
+
+
+
+
+
 
 
