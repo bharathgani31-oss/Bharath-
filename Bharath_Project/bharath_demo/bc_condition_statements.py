@@ -83,20 +83,64 @@ c = Num1 - Num2
 print(f'The Sub of {Num1} and {Num2} is : ', c )
 c = Num1 / Num2
 print(f'The div of {Num1} and {Num2} is : ', c )
-'''
+
 marks = int(input("Enter the Marks: "))
-if marks in range(95,100):
+if marks in range(90,100):
     print("Grade A+")
 elif marks in range(80,90):
     print("Grade A")
-elif marks in range(75,79):
+elif marks in range(70,80):
     print("Grade B")
-elif marks in range(65,74):
+elif marks in range(60,70):
     print("Grade c")
-elif marks in range(50,64):
+elif marks in range(50,60):
     print("Grade D")
-elif marks in range(40,49):
+elif marks in range(40,50):
     print("Just Pass")
 else:
     print("Fail")
+    
 
+num = int(input("enter a number: "))
+if num > 0:
+    print(f'{num} is a positive Number')
+elif num < 0:
+    print(f'{num} is negitive number')
+else:
+    print(f'{num} is equal to Zero')
+
+
+num1 = int(input("Enter num1: "))
+num2 = int(input ("Enter num2: ")) 
+if num1 > num2:
+    print(f"{num1} is greater than {num2}")
+else:
+    print(f"{num2} is greater than {num1}")
+
+list1 = [1,2,3,4,5]
+list2 = [6,7,8,9,10]
+c=list1 + list2
+print(c)
+
+operator = input("Enter an operator (+ - * /): ")
+Num1 = float(input("Enter Num1 :"))
+Num2 = float(input("Enter Num2 :"))
+if operator == "+":
+    operator = Num1 + Num2
+    print(operator)
+elif operator == "-":
+    operator = Num1 - Num2
+    print(operator)
+elif operator == "*":
+    operator = Num1 * Num2
+    print(operator)
+elif operator == "/":
+    operator = Num1 / Num2
+    print(operator)
+else:
+    print("Wrong choice")
+
+a = "Bharath"
+print(a.isalpha())
+print(a.isdigit())
+'''
