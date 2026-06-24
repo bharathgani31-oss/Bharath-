@@ -2,7 +2,7 @@
 Created on 9 Apr 2026
 
 @author: Bharath.c
-'''
+
 class CarClass:
     def __init__(self, name, color, model):
         print(f"A car of {color} of {name} is created in the year {model}")
@@ -29,3 +29,16 @@ car2.start()
 
 car1.move_backward()
 print("car1.name:", car1.name)
+
+class CarClass:
+    def __init__(self,name,color,model):
+        print(f"A {name} car of {color} color is created in the year {model}")
+car1 = CarClass("Thar", "red","2026")
+'''
+class Animal:
+    def __init__(self):
+        print("Constructor is being called")
+animal1 = Animal()# constructor can be called implecitely if required
+animal1.__init__()# constructor can called explicitely if required
+
+car1.start()

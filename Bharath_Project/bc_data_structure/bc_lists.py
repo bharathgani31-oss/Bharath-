@@ -38,7 +38,7 @@ for i in c:
     b.insert(index,i)
     index=index+1
 print(b) 
-'''
+
 f = [2,3,4,5,6,7,8,9,3,4,6,9] 
 print(f)
 a = int(input(f'enter a number inside:' ))
@@ -50,8 +50,12 @@ for i in range(c):
     j = f.index(a,pos)
     pos = j+1
     print(j)
-       
-    
+'''     
+for j in range(1, 7): # No. of lines
+    for i in range(j): # No. of stars
+        print("*", end=" ")    
+    print()
+      
     
      
 

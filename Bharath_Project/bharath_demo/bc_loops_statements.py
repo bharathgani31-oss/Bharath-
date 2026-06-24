@@ -59,14 +59,17 @@ for j in range(1, 6):
         print("*", end=" ")
     print()
 '''
-for j in range(1, 7): # No. of lines
-    for i in range(j): # No. of stars
+# for j in range(1, 7): # No. of lines
+#     for i in range(j): # No. of stars
+#         print("*", end=" ")    
+#     print()
+#
+# for j in range(0, 5):
+#     for i in range (5-j):
+#         print("*",end=" ")
+    #print()
+for j in range(0, 30): # No. of lines
+    for i in range(1): # No. of stars
         print("*", end=" ")    
     print()
-
-for j in range(0, 5):
-    for i in range (5-j):
-        print("*",end=" ")
-    print()
-
 

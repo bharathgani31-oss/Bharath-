@@ -9,7 +9,7 @@ for i in a:
     s = s + i
 print(s)
 
-'''
+
 
 def add(*a):
     s = 0
@@ -17,6 +17,12 @@ def add(*a):
         s = s + i
     print(s)
 #add(1,4,6,4)
- 
+'''
+addition = lambda a,b : a+b
+print("addition",addition(3,9))
 
-
+def add(a=0,b=0):
+    c = a+b
+    return c
+print(add())
+print(add())
